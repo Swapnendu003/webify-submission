@@ -189,7 +189,7 @@ body {
     height: 350px;
   }
   header::before {
-    background: url("bg1.jpg") no-repeat center center/cover;
+    background: url("assets/bg1.jpg") no-repeat center center/cover;
     content: "";
     position: absolute;
     top: 0;
@@ -237,7 +237,7 @@ body {
     margin-top: 16px;
     display: flex;
     flex-direction: column;
-    background: url("bg2.jpg") no-repeat center center/cover;
+    background: url("assets/bg2.jpg") no-repeat center center/cover;
   
   }
   .box{
@@ -422,4 +422,19 @@ body {
     opacity: 1;
   }
 
-  
+  .foot
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-family: "Ubuntu", sans-serif;
+}
+.profile img{
+  margin: 10px 20px 10px 10px;
+  display: flex;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 15px white;
+}
