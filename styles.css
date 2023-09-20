@@ -179,4 +179,123 @@ body {
         border-bottom: 1px solid #444;
     }
   }
+  #home {
+    padding-top: 25px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: 350px;
+  }
+  header::before {
+    background: url("bg1.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+  }
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 20px;
+    box-shadow: 1px 5px 60px white;
+  }
+  .button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+  }
+  
+  #service-container {
+    margin: 0;
+    display: flex;
+  }
+
+  .services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .herosc{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    background: url("bg2.jpg") no-repeat center center/cover;
+  
+  }
+  .box{
+    box-shadow: 5px 10px 50px black;
+  }
+  .services .box {
+    transition: transform 0.3s ease;
+  }
+  .services .box:hover {
+    transform: translateY(12px);
+  }
+  #box1{
+    
+    display: flex;
+    flex-flow: column;
+    border-radius: 34px;
+    width: 250px;
+    height: 300px;
+    margin: 34px;
+    background-color: black;
+  }
+  
+  #box1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 34px;
+    object-fit: cover;
+  }
+  #box2{
+    
+    display: flex;
+    flex-flow: column;
+    border-radius: 34px;
+    width: 250px;
+    height: 300px;
+    margin: 34px;
+    background-color: black;
+  }
+  #box2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 34px;
+    object-fit: cover;
+  }
+  #box3{
+    
+    display: flex;
+    flex-flow: column;
+    border-radius: 34px;
+    width: 250px;
+    height: 300px;
+    margin: 34px;
+    background-color: black;
+  }
+  #box3 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 34px;
+    object-fit: cover;
+  }
   
